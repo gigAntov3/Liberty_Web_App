@@ -6,7 +6,7 @@ dp = Dispatcher(bot)
 
 def webAppKeyboard(): #создание клавиатуры с webapp кнопкой
    keyboard = InlineKeyboardMarkup(row_width=1) #создаем клавиатуру
-   webAppTest = types.WebAppInfo(url = "https://gigantov3.github.io/sedtfuyilkujgbfvdsfg/") #создаем webappinfo - формат хранения url
+   webAppTest = types.WebAppInfo(url = "https://gigantov3.github.io/Liberty_Web_App/") #создаем webappinfo - формат хранения url
    one_butt = InlineKeyboardButton(text="Нажми сюда!!!", web_app=webAppTest) #создаем кнопку типа webapp
    keyboard.add(one_butt) #добавляем кнопки в клавиатуру
 
