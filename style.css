@@ -2,6 +2,8 @@ body {
     background: url(https://html5book.ru/wp-content/uploads/2015/10/background54.png);
   }
   .pressed-button {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     display: inline-block;
     padding: 12px 40px;
@@ -20,8 +22,4 @@ body {
   .pressed-button:hover {
     box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
     background-position: 0 0;
-  }
-  .container-feedback{
-    display: flex;
-    align-items: center;
   }
